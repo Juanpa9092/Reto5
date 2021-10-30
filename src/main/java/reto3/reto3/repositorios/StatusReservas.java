@@ -6,20 +6,20 @@ package reto3.reto3.repositorios;
  * @author juanp
  */
 public class StatusReservas {
-    private int complete;
+    private int completed;
     private int cancelled;
 
-    public StatusReservas(int complete, int cancelled) {
-        this.complete = complete;
+    public StatusReservas(int completed, int cancelled) {
+        this.completed = completed;
         this.cancelled = cancelled;
     }
 
     public int getComplete() {
-        return complete;
+        return completed;
     }
 
-    public void setComplete(int complete) {
-        this.complete = complete;
+    public void setComplete(int completed) {
+        this.completed = completed;
     }
 
     public int getCancelled() {
