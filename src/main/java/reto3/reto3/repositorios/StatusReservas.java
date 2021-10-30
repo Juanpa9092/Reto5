@@ -14,11 +14,11 @@ public class StatusReservas {
         this.cancelled = cancelled;
     }
 
-    public int getComplete() {
+    public int getCompleted() {
         return completed;
     }
 
-    public void setComplete(int completed) {
+    public void setCompleted(int completed) {
         this.completed = completed;
     }
 
